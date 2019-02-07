@@ -1,0 +1,622 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  color: #555555;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  color: #222222;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #222222;
+}
+
+p a {
+  color: #222222;
+}
+
+p {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  outline: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+figure {
+  margin-bottom: 6px;
+  position: relative;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+#notifications span {
+  position: relative;
+  top: -7px;
+  left: -7px;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: rgb(243, 59, 59);
+  color: white;
+  border: 2px solid white;
+}
+
+#notifications {
+  border-left: 2px solid white;
+}
+
+ul.nav li>a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder
+}
+
+nav {
+  background-color: rgba(14, 13, 13, 0.801);
+  border-bottom: 2px dashed white !important
+}
+
+.wawrecipe-main-wrapper {
+  float: left;
+  width: 100%
+}
+
+.wawrecipe-main-section {
+  float: left;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0px
+}
+
+.wawrecipe-main-content {
+  padding: 100px 0px 60px 0px;
+}
+
+
+/*wawrecipe-banner*/
+
+.wawrecipe-banner {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.wawrecipe-banner-caption {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: 100%;
+  margin: -168px 0px 0px;
+}
+
+.wawrecipe-banner-text {
+  float: left;
+  width: 84%;
+  position: relative;
+  padding: 97px 0px 0px;
+}
+
+.wawrecipe-banner-text h1 {
+  font-size: 60px;
+  margin: 0px 0px 2px;
+  letter-spacing: 2.7px;
+  line-height: 1;
+  color: white;
+}
+
+.wawrecipe-banner-text h2 {
+  font-size: 65px;
+  margin: 0px 0px 1px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 2.9px;
+}
+
+.wawrecipe-banner-text h3 {
+  font-size: 34px;
+  letter-spacing: 3.1px;
+  margin: 0px 0px 25px;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+.wawrecipe-banner-text p {
+  margin: 0px 0px 34px;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
+
+
+/**wawrecipe-main-content*/
+
+
+/*Fancy-title*/
+
+.wawrecipe-fancy-title {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px 70px;
+}
+
+.wawrecipe-fancy-title span {
+  font-size: 35px;
+  margin: 0px 0px 1px;
+  display: inline-block;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.wawrecipe-fancy-title h2 {
+  font-size: 30px;
+  margin: 0px 0px 13px;
+  letter-spacing: 1.1px;
+  line-height: 0.9;
+  font-weight: 600;
+}
+
+.wawrecipe-special-flavours-text {
+  float: left;
+  width: 100%;
+}
+
+.wawrecipe-special-flavours-text .wawrecipe-fancy-title {
+  text-align: left;
+  margin: 0px 0px 17px;
+}
+
+.wawrecipe-special-flavours-text p {
+  margin: 0px 0px 14px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  float: left;
+}
+
+
+/*wawrecipe-flavours-thumb*/
+
+.wawrecipe-flavours-thumb,
+.wawrecipe-flavours-thumb>a,
+.wawrecipe-flavours-thumb a img {
+  float: left;
+  width: 100%;
+}
+
+.wawrecipe-flavours-thumb {
+  margin: 0px;
+}
+
+.wawrecipe-flavours-thumb>a {
+  position: relative;
+}
+
+.wawrecipe-flavours-thumb>a:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(top, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 1) 99%, rgba(34, 34, 34, 1) 100%);
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 1) 99%, rgba(34, 34, 34, 1) 100%);
+  background: linear-gradient(to bottom, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 1) 99%, rgba(34, 34, 34, 1) 100%);
+  opacity: 0.7;
+}
+
+.wawrecipe-flavours-thumb figcaption {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 0px 0px 23px 30px;
+}
+
+.wawrecipe-flavours-thumb figcaption span {
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #eb2d2d;
+  display: inline-block;
+  padding: 4px 10px 5px;
+  border-radius: 2px;
+  margin: 0px 0px 6px;
+  letter-spacing: 0.5px;
+}
+
+.wawrecipe-flavours-thumb figcaption h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0px 0px 4px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.wawrecipe-flavours-thumb figcaption h2 a {
+  color: #ffffff;
+}
+
+.wawrecipe-flavours-thumb figcaption p {
+  font-size: 12px;
+  font-weight: 600;
+  width: 234px;
+  color: #dddddd;
+  margin: 0px;
+  letter-spacing: 0.4px;
+}
+
+
+/*wawrecipe-flavours-list*/
+
+.wawrecipe-flavours-thumb,
+.wawrecipe-flavours-list {
+  padding: 25px 0px 0px;
+}
+
+.wawrecipe-flavours-list,
+.wawrecipe-flavours-list ul li,
+.wawrecipe-flavours-list figure a,
+.wawrecipe-flavours-list figure a img {
+  float: left;
+  width: 100%;
+}
+
+.wawrecipe-flavours-list ul li {
+  list-style: none;
+  margin: 0px 0px 10px;
+}
+
+.wawrecipe-flavours-list figure {
+  float: left;
+  width: 95px;
+  margin: 0px;
+}
+
+.wawrecipe-flavours-list figure~.wawrecipe-flavours-list-text {
+  padding: 7px 0px 0px 115px;
+}
+
+.wawrecipe-flavours-list-text h6 {
+  margin: 0px 0px 8px;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.wawrecipe-flavours-list-text p {
+  line-height: 22px;
+  margin: 0px;
+}
+
+
+/*wawrecipe-blog-medium*/
+
+.wawrecipe-blog,
+.wawrecipe-blog-medium figure a,
+.wawrecipe-blog-medium figure a img {
+  float: left;
+  width: 100%;
+}
+
+.wawrecipe-blog>ul>li {
+  list-style: none;
+  margin: 0px -4px 30px 0px;
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wawrecipe-blog-medium figure {
+  float: right;
+  margin: 0px;
+  width: 458px;
+  overflow: hidden;
+}
+
+.wawrecipe-blog-medium figure a {
+  position: relative;
+}
+
+.wawrecipe-blog-medium figure a:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.wawrecipe-blog-medium ul li:hover figure a:before {
+  opacity: 0.5;
+}
+
+.wawrecipe-blog-medium .wawrecipe-blog-medium-layer:hover figure a:before {
+  opacity: 0.5;
+}
+
+.wawrecipe-blog-medium-text {
+  width: 300px;
+  padding: 45px 28px 50px 30px;
+  background-color: #ffffff;
+  float: left;
+  line-height: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
+  margin: 50px -203px 0 0px;
+  position: relative;
+}
+
+.wawrecipe-blog-medium-text span {
+  font-size: 10px;
+  display: inline-block;
+  margin: 0px 0px 2px;
+  text-transform: uppercase;
+}
+
+.wawrecipe-blog-medium-text h5 {
+  font-weight: 600;
+  margin: 0px 0px 16px;
+  letter-spacing: 0.6px;
+}
+
+.wawrecipe-blog-medium-text p {
+  margin: 0px 0px 21px;
+  letter-spacing: 0.5px;
+}
+
+
+/*Slick dots*/
+
+.wawrecipe-blog-medium-slide {
+  margin-bottom: 97px;
+}
+
+.wawrecipe-blog-medium-slide .slick-dots {
+  bottom: 0px;
+}
+
+.wawrecipe-blog-medium-slide .slick-dots li button {
+  background-color: #d6d6d6;
+  width: 8px;
+  border: none;
+  height: 8px;
+  border-radius: 100%;
+}
+
+.wawrecipe-blog-medium-slide .slick-dots li.slick-active button {
+  width: 12px;
+  height: 12px;
+}
+
+
+/*wawrecipe-footer*/
+
+#wawrecipe-footer,
+.wawrecipe-footer-widget {
+  float: left;
+  width: 100%;
+}
+
+.wawrecipe-footer-heading {
+  text-align: center;
+  width: 56%;
+  margin: 0 auto 70px;
+}
+
+.wawrecipe-footer-widget .widget {
+  margin: 0px 0px 40px;
+}
+
+.wawrecipe-footer-widget {
+  padding: 0px 0px 40px;
+}
+
+.wawrecipe-footer-one {
+  background-image: url("extra-images/footer-back-img.jpg");
+  background-position: center;
+  padding: 38px 0px 0px;
+  margin: 42px 0px 0px;
+  position: relative;
+}
+
+.wawrecipe-footer-one:before {
+  content: '';
+  background: url(../images/footer-shape.png);
+  position: absolute;
+  left: 0px;
+  top: -42px;
+  height: 42px;
+  width: 100%;
+  background-position: center;
+  opacity: 0.96;
+}
+
+.wawrecipe-footer-transparent {
+  position: absolute;
+  background: url(../images/footer-back-transparent.png);
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.95;
+}
+
+.wawrecipe-footer-heading .logo {
+  margin: 0px 0px 23px;
+}
+
+.wawrecipe-footer-heading p {
+  color: #999;
+  margin: 0px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+
+
+/*footer widget*/
+
+.footer-widget-title {
+  float: left;
+  width: 100%;
+  position: relative;
+  line-height: 0.8;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0px 0px 11px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0px 0px 34px;
+}
+
+.footer-widget-title:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 32px;
+  height: 1px;
+}
+
+.widget_latest_post ul,
+.widget_latest_post ul li {
+  float: left;
+  width: 100%;
+}
+
+.widget_latest_post ul li {
+  list-style: none;
+  margin: 0px 0px 20px;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.1);
+  padding: 0px 0px 14px;
+}
+
+.widget_latest_post h6 {
+  font-size: 15px;
+  margin: 0px 0px 1px;
+  letter-spacing: 0.6px;
+}
+
+.widget_latest_post h6 a {
+  color: #999;
+}
+
+.widget_latest_post time {
+  letter-spacing: 0.5px;
+}
+
+.widget_latest_post ul li:hover h6 a {
+  color: #fff;
+}
+
+.widget_latest_post ul li:last-child {
+  border-bottom: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/*widget_links*/
+
+.widget_links ul li {
+  float: left;
+  width: 50%;
+  list-style: none;
+  margin: 0px 0px 16px;
+}
+
+.widget_links ul li a {
+  display: block;
+  margin: 0px;
+  color: #999;
+  line-height: 23px;
+  letter-spacing: 0.9px;
+}
+
+.widget_links ul li:hover a {
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+
+/*wawrecipe-copyright*/
+
+.wawrecipe-copyright {
+  float: left;
+  width: 100%;
+  border-top: 2px dashed rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 22px 0px 24px;
+}
+
+.wawrecipe-copyright p {
+  color: #999999;
+  margin: 0px;
+  letter-spacing: 0.7px;
+}
