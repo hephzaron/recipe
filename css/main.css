@@ -96,14 +96,14 @@ img {
 #notifications span {
   position: relative;
   top: -7px;
-  left: -7px;
+  left: -8px;
   border-radius: 50%;
   padding: 2px;
   font-size: 10px;
   font-weight: bold;
-  background-color: rgb(243, 59, 59);
+  background-color: rgb(247, 7, 7);
   color: white;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 ul.nav li:not(:first-of-type):before {
@@ -922,7 +922,19 @@ blockquote,
 }
 
 
-/*Realted Blog*/
+/*Related Blog*/
+
+.hover-btn {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  color: #fff;
+  font-size: 21px;
+  padding: 13px 0px 0px;
+}
 
 .wawrecipe-section-heading {
   float: left;
@@ -1462,4 +1474,224 @@ a.review-reply-link:hover {
 
 .widget_tags a:hover {
   color: #fff;
+}
+
+
+/*user Detail*/
+
+.wawrecipe-user-detail,
+.wawrecipe-user-thumb,
+.wawrecipe-user-thumb img,
+.wawrecipe-user-option,
+.wawrecipe-user-detail-text {
+  float: left;
+  width: 100%;
+}
+
+.wawrecipe-user-thumb {
+  margin: 0px;
+}
+
+.wawrecipe-user-detail {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+  position: relative;
+  margin: 0px 0px 68px;
+}
+
+.wawrecipe-user-detail:before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  bottom: -10px;
+  width: 97%;
+  height: 10px;
+  background-color: #ededed;
+}
+
+.wawrecipe-user-detail:after {
+  content: '';
+  position: absolute;
+  left: 30px;
+  bottom: -20px;
+  width: 94%;
+  height: 20px;
+  background-color: #f8f8f8;
+  z-index: -1;
+}
+
+.wawrecipe-user-detail-text {
+  padding: 32px 30px 0px 0px;
+  background-color: #ffffff;
+}
+
+.wawrecipe-user-detail-text h2 {
+  font-size: 18px;
+  margin: 0px 0px 5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.wawrecipe-user-detail-text>span {
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 0px 12px;
+}
+
+.wawrecipe-user-option {
+  margin: 0px 0px 10px;
+}
+
+.wawrecipe-user-option li {
+  float: left;
+  list-style: none;
+  margin: 0px 33px 5px 0px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.wawrecipe-user-option li:last-child {
+  margin-right: 0px;
+}
+
+.wawrecipe-user-option li a i,
+.wawrecipe-user-option li span i {
+  margin: 0px 12px 0px 0px;
+}
+
+.wawrecipe-user-option li span {
+  color: #222222;
+}
+
+.wawrecipe-user-detail-text p {
+  margin: 0px 0px 14px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social {
+  margin: 8px 0px 0px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social ul li a {
+  height: 40px;
+  width: 40px;
+  padding: 6px 0px 0px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social ul li a:before {
+  width: 30px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social ul li a:after {
+  height: 30px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social ul li a .btn-shape:before {
+  width: 30px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social ul li a .btn-shape:after {
+  height: 30px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social ul li a:hover .btn-shape:before {
+  right: 100%;
+  margin: 0px -30px 0px 0px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social ul li a:hover:before {
+  left: 100%;
+  margin: 0px 0px 0px -30px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social ul li a:hover .btn-shape:after {
+  bottom: 100%;
+  margin: 0px 0px -30px;
+}
+
+.wawrecipe-user-detail-text .wawrecipe-recipe-social ul li a:hover:after {
+  top: 100%;
+  margin: -30px 0px 0px;
+}
+
+
+/*wawrecipe-recipe-social*/
+
+.wawrecipe-recipe-social {
+  float: left;
+  width: 100%;
+}
+
+.wawrecipe-recipe-social ul li {
+  float: left;
+  margin: 0px 15px 5px 0px;
+  list-style: none;
+}
+
+.wawrecipe-recipe-social h6 {
+  margin: 0px 5px 0px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2e2e2e;
+  letter-spacing: 0.4px;
+}
+
+.wawrecipe-recipe-social ul li a {
+  font-size: 15px;
+  color: #999999;
+  float: left;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  padding: 2px 0px 0px;
+}
+
+.wawrecipe-recipe-social ul li a:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 25px;
+  height: 1px;
+  background-color: #999999;
+}
+
+.wawrecipe-recipe-social ul li a:after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1px;
+  height: 25px;
+  background-color: #999999;
+}
+
+.wawrecipe-recipe-social ul li a .btn-shape:before {
+  width: 25px;
+}
+
+.wawrecipe-recipe-social ul li a .btn-shape:after {
+  height: 25px;
+}
+
+.wawrecipe-recipe-social ul li a:hover .btn-shape:before {
+  right: 100%;
+  margin: 0px -25px 0px 0px;
+}
+
+.wawrecipe-recipe-social ul li a:hover:before {
+  left: 100%;
+  margin: 0px 0px 0px -25px;
+}
+
+.wawrecipe-recipe-social ul li a:hover .btn-shape:after {
+  bottom: 100%;
+  margin: 0px 0px -25px;
+}
+
+.wawrecipe-recipe-social ul li a:hover:after {
+  top: 100%;
+  margin: -25px 0px 0px;
 }
