@@ -620,3 +620,96 @@ nav {
   margin: 0px;
   letter-spacing: 0.7px;
 }
+
+
+/**Recipe details**/
+
+
+/*wawrecipe-subheader*/
+
+.wawrecipe-subheader,
+.wawrecipe-subheader-text,
+.wawrecipe-breadcrumb {
+  float: left;
+  width: 100%;
+}
+
+.wawrecipe-subheader {
+  position: relative;
+  background-image: url("../extra-images/subheader-img.jpg");
+  padding: 95px 0px 0px;
+  background-position: center;
+  text-align: center;
+}
+
+.wawrecipe-subheader-transparent {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.wawrecipe-subheader-text {
+  padding: 56px 0px 67px;
+}
+
+.wawrecipe-subheader-text span {
+  display: block;
+  font-size: 24px;
+  letter-spacing: 0.9px;
+  margin: 0px 0px 3px;
+}
+
+.wawrecipe-subheader-text h1 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px 0px 17px;
+  line-height: 1;
+  letter-spacing: 0.8px;
+}
+
+.wawrecipe-subheader-text p {
+  margin: 0px;
+  color: #bbbbbb;
+  letter-spacing: 0.5px;
+  width: 43%;
+  display: inline-block;
+}
+
+.wawrecipe-breadcrumb {
+  padding: 11px 0px 6px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.wawrecipe-breadcrumb ul {
+  display: inline-block;
+}
+
+.wawrecipe-breadcrumb ul li {
+  float: left;
+  margin: 0px;
+  list-style: none;
+  letter-spacing: 0.4px;
+  padding: 0px 16px;
+  position: relative;
+}
+
+.wawrecipe-breadcrumb ul li:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  position: absolute;
+  right: -2px;
+  top: 0px;
+  color: #fff;
+}
+
+.wawrecipe-breadcrumb ul li:last-child:before {
+  content: none;
+}
+
+.wawrecipe-breadcrumb ul li a {
+  color: #ffffff;
+}
