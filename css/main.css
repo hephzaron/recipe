@@ -1966,3 +1966,145 @@ a.review-reply-link:hover {
   position: absolute;
   top: 0px;
 }
+
+
+/**Error Page**/
+
+.wawrecipe-error-page {
+  width: 83.333%;
+  margin: 0 auto;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  padding: 75px 70px 72px 40px;
+}
+
+.wawrecipe-error-text {
+  float: left;
+  width: 45%;
+  padding: 38px 0 0 0;
+}
+
+.wawrecipe-error-text h2 {
+  font-size: 120px;
+  color: #b99563;
+  font-weight: 600;
+  margin: 0 0px 5px;
+  line-height: 0.9;
+  letter-spacing: 6px;
+}
+
+.wawrecipe-error-text h3 {
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.wawrecipe-error-text p {
+  margin: 0 0 33px;
+  letter-spacing: 0.5px;
+}
+
+.wawrecipe-error-btn i {
+  float: right;
+  margin: 3px 0px 0px 17px;
+  font-size: 12px;
+}
+
+.wawrecipe-error-btn:hover i {
+  color: #b99563;
+}
+
+.wawrecipe-error-btn {
+  float: left;
+  padding: 9px 20px 11px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #555555;
+  position: relative;
+}
+
+.wawrecipe-error-btn:hover {
+  color: #b99563;
+}
+
+.wawrecipe-error-btn:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 74%;
+  height: 1px;
+  background-color: #999999;
+}
+
+.wawrecipe-error-btn:after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1px;
+  height: 26px;
+  background-color: #999999;
+}
+
+.wawrecipe-error-btn:hover:before {
+  left: 100%;
+  margin: 0px 0px 0px -74%;
+  background-color: #b99563;
+}
+
+.wawrecipe-error-btn:hover:after {
+  top: 100%;
+  margin: -26px 0px 0px;
+  background-color: #b99563;
+}
+
+.wawrecipe-error-btn:hover small:before {
+  right: 100%;
+  margin: 0px -74% 0px 0%;
+  background-color: #b99563;
+}
+
+.wawrecipe-error-btn:hover small:after {
+  bottom: 100%;
+  margin: 0px 0px -26px;
+  background-color: #b99563;
+}
+
+.wawrecipe-error-btn small {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.wawrecipe-error-btn small:before {
+  content: '';
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 74%;
+  height: 1px;
+  background-color: #999999;
+}
+
+.wawrecipe-error-btn small:after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 1px;
+  height: 26px;
+  background-color: #999999;
+}
+
+.wawrecipe-error-thumb {
+  float: right;
+  width: 41.66666667%;
+  text-align: center;
+}
+
+.wawrecipe-error-thumb img {
+  display: inline-block;
+}
