@@ -153,7 +153,8 @@
  .wawrecipe-price-plan ul li:hover .wawrecipe-learn-btn .btn-shape:after,
  .wawrecipe-pagination>ul>li:hover>a,
  .wawrecipe-pagination>ul>li:hover>span,
- .wawrecipe-pagination>ul>li>.current {
+ .wawrecipe-pagination>ul>li>.current,
+ ul.nav li:before {
    background-color: #b99563;
  }
  
