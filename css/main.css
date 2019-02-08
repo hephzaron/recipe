@@ -93,6 +93,9 @@ img {
   max-width: 100%;
 }
 
+
+/**Naviagtion bar**/
+
 #notifications span {
   position: relative;
   top: -7px;
@@ -106,7 +109,7 @@ img {
   border: 1px solid white;
 }
 
-ul.nav li:not(:first-of-type):before {
+ul.nav>li:not(:first-of-type):before {
   content: '';
   position: absolute;
   bottom: 18px;
@@ -114,15 +117,42 @@ ul.nav li:not(:first-of-type):before {
   height: 12px;
 }
 
-ul.nav li>a {
+ul.nav>li>a {
   color: white;
-  text-transform: uppercase;
-  font-weight: bolder
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 nav {
   background-color: rgba(14, 13, 13, 0.801);
   border-bottom: 2px dashed white !important
+}
+
+ul.dropdown-menu {
+  border-bottom: 4px solid #b99563;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+ul.dropdown-menu>li>a {
+  text-transform: capitalize;
+  color: white;
+  font-size: 15px;
+  padding: 10px, 5px;
+  width: 250px;
+}
+
+ul.dropdown-menu>li>a>.fa,
+ul.dropdown-menu>li>a>.badge {
+  position: relative;
+  top: 3px;
+  float: right
+}
+
+ul.dropdown-menu>li>a:hover {
+  color: #835008;
+  font-weight: bold;
+  border-left: 2px solid #835008
 }
 
 .wawrecipe-main-wrapper {
