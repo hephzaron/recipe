@@ -63,11 +63,11 @@
 								</ul>
 							</a>
 						</li>
-						<li><a href="#"><i class="fa fa-lg fa-sign-in"></i> Login</a></li>
-						<li><a href="#"><i class="fa fa-lg fa-login"></i> Register</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#loginmodal"><i class="fa fa-lg fa-sign-in"></i> Login</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#signupmodal"><i class="fa fa-lg fa-login"></i> Register</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#"><i class="fa  fa-lg fa-search"></i></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#searchmodal"><i class="fa  fa-lg fa-search"></i></a></li>
 						<li id="notifications"><a href="#"><i class="fa fa-lg fa-bell-o"></i><span>22</span></li>
 					</ul>
 				</div>
@@ -297,6 +297,64 @@
 		<div class="clearfix"></div>
 
 	 </div>
+
+		<!-- Modal -->
+		<!--Search Modal-->
+		<div class="modal fade searchmodal" id="searchmodal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-body">
+					<a href="#" class="wawrecipe-close-btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+					<form>
+						<input type="text" value="Type Your Keyword" onblur="if(this.value == '') { this.value ='Type Your Keyword'; }" onfocus="if(this.value =='Type Your Keyword') { this.value = ''; }">
+						<input type="submit" value="">
+						<i class="fa fa-search"></i>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--Login Modal-->
+		<div class="modal fade loginmodal" id="loginmodal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-body">
+					<a href="#" class="wawrecipe-close-btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+          <form class="form" id="loginForm">
+            <button type="button" class="btn btn-default fa fa fa-facebook-square" value="">
+              Login with Facebook
+            </button>
+            <button type="button" class="btn btn-default fa fa-google-plus-square" value="">
+              Login with Google
+            </button>
+            <input type="email" class="form-control" placeholder="Email">
+            <input type="password" class="form-control" placeholder="Password">
+            <button type="submit" class="btn btn-primary">Login</button>
+            <span class="badge">or</span>
+            <button class="btn btn-default">Forgot Password ?</button>
+          </form>
+				</div>
+			</div>
+		</div>
+		<!--Signup Modal-->
+		<div class="modal fade signupmodal" id="signupmodal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-body">
+					<a href="#" class="wawrecipe-close-btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+          <form class="form" id="signupForm">
+            <input type="text" class="form-control" placeholder="Firstname">
+            <input type="text" class="form-control" placeholder="Lastname">
+            <input type="text" class="form-control" placeholder="Username">
+            <input type="email" class="form-control" placeholder="Email">
+            <input type="number" class="form-control" placeholder="Age">
+            <select class="form-control">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+            <input type="password" class="form-control" placeholder="Password">
+            <input type="password" class="form-control" placeholder="Confirm Password">
+            <button type="submit" class="btn btn-primary">Signup</button>
+          </form>
+				</div>
+			</div>
+		</div>
     <!-- jQuery (necessary for JavaScript plugins) -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>

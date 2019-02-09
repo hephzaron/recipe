@@ -2126,14 +2126,14 @@ a.review-reply-link:hover {
 }
 
 form .fa-facebook-square {
-  color: rgb(47, 16, 156);
-  background-color: rgba(57, 23, 182, 0.568);
+  color: white;
+  background-color: rgba(70, 28, 224, 0.74);
   border: 0;
 }
 
 form .fa-google-plus-square {
-  color: red;
-  background-color: rgba(245, 122, 122, 0.411);
+  color: white;
+  background-color: rgba(235, 20, 20, 0.74);
   border: 0;
 }
 
@@ -2147,19 +2147,95 @@ form .fa-google-plus-square {
   border-radius: 0
 }
 
-#authForm {
-  padding-bottom: 20px
+.form,
+.loginmodal .wawrecipe-close-btn,
+.signupmodal .wawrecipe-close-btn {
+  background-color: rgba(0, 0, 0, 0.527)
 }
 
-#authForm h5 {
-  font-weight: bold;
+
+/* Search Modal */
+
+.searchmodal form,
+.loginmodal form,
+.signupmodal form {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.searchmodal .modal-dialog {
+  margin: 300px auto;
+}
+
+.loginmodal .modal-dialog,
+.signupmodal .modal-dialog {
+  margin: 200px auto;
+  float: right
+}
+
+.searchmodal .modal-body {
+  display: inline-block;
+  width: 100%;
+  padding: 0px;
+  position: relative;
+}
+
+.loginmodal .modal-body,
+.signupmodal .modal-body {
+  display: inline-block;
+  width: 500px;
+  padding: 0px;
+  position: relative;
+}
+
+.searchmodal form input[type="text"] {
+  float: left;
+  width: 100%;
+  background-color: #ffffff;
+  color: #555;
+  border: 0;
+  font-size: 20px;
   font-style: italic;
+  height: 60px;
+  padding: 6px 30px;
+  border-radius: 40px;
 }
 
-#userAuth {
-  background-image: url("../extra-images/banner-1.jpg")
+.searchmodal form input[type="submit"],
+.loginmodal form input[type="submit"],
+.signupmodal form input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  border: none;
+  z-index: 2;
 }
 
-#authForm {
-  background-color: rgba(255, 255, 255, 0.253);
+.searchmodal form i,
+.loginmodal form i,
+.signupmodal form i {
+  position: absolute;
+  right: 28px;
+  top: 20px;
+  color: #999;
+  font-size: 18px;
+  z-index: 0;
+}
+
+.wawrecipe-close-btn {
+  position: absolute;
+  right: 40%;
+  top: -50px;
+  color: #999;
+  background-color: #ffffff;
+  width: 100px;
+  height: 50px;
+  border-radius: 100px 100px 0px 0px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 8px;
 }
