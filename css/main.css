@@ -2108,3 +2108,58 @@ a.review-reply-link:hover {
 .wawrecipe-error-thumb img {
   display: inline-block;
 }
+
+
+/**Forms*/
+
+.forms {
+  background-image: url("extra-images/banner-1.jpg")
+}
+
+#signupForm {
+  border-left: 2px solid rgba(70, 43, 22, 0.644);
+}
+
+#loginForm,
+#signupForm {
+  padding: 10px;
+}
+
+form .fa-facebook-square {
+  color: rgb(47, 16, 156);
+  background-color: rgba(57, 23, 182, 0.568);
+  border: 0;
+}
+
+form .fa-google-plus-square {
+  color: red;
+  background-color: rgba(245, 122, 122, 0.411);
+  border: 0;
+}
+
+.form>.form-control {
+  border: 1px dashed #b99563;
+  border-radius: 0;
+  margin: 5px 0px
+}
+
+.form>.btn {
+  border-radius: 0
+}
+
+#authForm {
+  padding-bottom: 20px
+}
+
+#authForm h5 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#userAuth {
+  background-image: url("../extra-images/banner-1.jpg")
+}
+
+#authForm {
+  background-color: rgba(255, 255, 255, 0.253);
+}

@@ -14,6 +14,7 @@
 	 <link href="css/slick-slider.css" rel="stylesheet">
 	 <link href="css/main.css" rel="stylesheet">
 	 <link href="css/color.css" rel="stylesheet">
+	 <link href="css/flaticon.css" rel="stylesheet">
 
 	 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -72,68 +73,50 @@
 				</div>
 			</div>
 		</nav>
-
-	
-    <!--// SubHeader \\-->
-    <div class="wawrecipe-subheader">
-      <span class="wawrecipe-subheader-transparent"></span>
-      <div class="wawrecipe-subheader-text">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                      <span>Error</span>
-                      <h1>Error 404</h1>
-                      <p>Sed vulputate elementum aliquam. Nunc vel efficitur ante. Ut gravida nulla id ornare sodales.</p>
-                    </div>
-                  </div>
-              </div>
-          </div>
-          <div class="wawrecipe-breadcrumb">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <ul>
-                      <li><a href="index-2.html">Homepage</a></li>
-                      <li class="active">Error 404</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-      <!--// SubHeader \\-->
-
-    <!--// Main Content \\-->
-    <div class="wawrecipe-main-content">
-
+		<!--// Main Content \\-->
+		<div id="userAuth" class="wawrecipe-main-content">
       <!--// Main Section \\-->
-      <div class="wawrecipe-main-section">
+      <div class="wawrecipe-main-section" id="authForm">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="wawrecipe-error-page">
-                <div class="wawrecipe-error-text">
-                  <h2>404</h2>
-                  <h3>Sorry ! Page Not Found</h3>
-                  <p>The Link You Clicked Maybe Broken Or Page May have Been Removed</p>
-                  <a href="index-2.html" class="wawrecipe-error-btn">
-                    Back To Homepage <small></small>
-                    <i class="fa fa-angle-right"></i>
-                  </a>
-                </div>
-                <div class="wawrecipe-error-thumb">
-                  <img src="extra-images/error-thumb.png" alt="">
-                </div>
-                <div class="clearfix"></div>
-              </div>
-            </div>
+          <div class="row">                
+            <aside class="col-md-6">
+              <h5 class="text-center">LOGIN</h5>
+              <form class="form" id="loginForm">
+                <button type="button" class="btn btn-default fa fa fa-facebook-square" value="">
+                  Login with Facebook
+                </button>
+                <button type="button" class="btn btn-default fa fa-google-plus-square" value="">
+                  Login with Google
+                </button>
+                <input type="email" class="form-control" placeholder="Email">
+                <input type="password" class="form-control" placeholder="Password">
+                <button type="submit" class="btn btn-primary">Login</button>
+                <span class="badge">or</span>
+                <button class="btn btn-default">Forgot Password ?</button>
+              </form>
+            </aside>
+            <aside class="col-md-6">
+              <form class="form" id="signupForm">
+                <h5 class="text-center">SIGN UP</h5>
+                <input type="text" class="form-control" placeholder="Firstname">
+                <input type="text" class="form-control" placeholder="Lastname">
+                <input type="text" class="form-control" placeholder="Username">
+                <input type="email" class="form-control" placeholder="Email">
+                <input type="number" class="form-control" placeholder="Age">
+                <select class="form-control">
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" class="form-control" placeholder="Confirm Password">
+                <button type="submit" class="btn btn-primary">Signup</button>
+              </form>
+            </aside>
           </div>
         </div>
       </div>
       <!--// Main Section \\-->
-
     </div>
-    <!--// Main Content \\-->
 		<!--// Footer \\-->
 		<footer id="wawrecipe-footer" class="wawrecipe-footer-one">
 			<span class="wawrecipe-footer-transparent"></span>
