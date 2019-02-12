@@ -2211,7 +2211,7 @@ form .fa-google-plus-square {
 .signupmodal .modal-dialog,
 .forgetpasswordmodal .modal-dialog {
   margin: 200px auto;
-  float: right
+  max-width: 600px;
 }
 
 .searchmodal .modal-body {
