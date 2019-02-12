@@ -2225,7 +2225,7 @@ form .fa-google-plus-square {
 .signupmodal .modal-body,
 .forgetpasswordmodal .modal-body {
   display: inline-block;
-  width: 500px;
+  width: 100%;
   padding: 0px;
   position: relative;
 }
