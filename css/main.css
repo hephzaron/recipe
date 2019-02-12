@@ -2153,12 +2153,10 @@ a.review-reply-link:hover {
   background-image: url("extra-images/banner-1.jpg")
 }
 
-#signupForm {
-  border-left: 2px solid rgba(70, 43, 22, 0.644);
-}
-
 #loginForm,
-#signupForm {
+#signupForm,
+#forgetpasswordForm,
+#changepasswordForm {
   padding: 10px;
 }
 
@@ -2187,7 +2185,8 @@ form .fa-google-plus-square {
 .form,
 .loginmodal .wawrecipe-close-btn,
 .signupmodal .wawrecipe-close-btn,
-.forgetpasswordmodal .wawrecipe-close-btn {
+.forgetpasswordmodal .wawrecipe-close-btn,
+.changepasswordmodal .wawrecipe-close-btn {
   background-color: rgba(0, 0, 0, 0.527)
 }
 
@@ -2197,7 +2196,8 @@ form .fa-google-plus-square {
 .searchmodal form,
 .loginmodal form,
 .signupmodal form,
-.forgetpasswordmodal form {
+.forgetpasswordmodal form,
+.changepasswordmodal form {
   float: left;
   width: 100%;
   position: relative;
@@ -2209,7 +2209,8 @@ form .fa-google-plus-square {
 
 .loginmodal .modal-dialog,
 .signupmodal .modal-dialog,
-.forgetpasswordmodal .modal-dialog {
+.forgetpasswordmodal .modal-dialog,
+.changepasswordmodal .modal-dialog {
   margin: 200px auto;
   max-width: 600px;
 }
@@ -2223,7 +2224,8 @@ form .fa-google-plus-square {
 
 .loginmodal .modal-body,
 .signupmodal .modal-body,
-.forgetpasswordmodal .modal-body {
+.forgetpasswordmodal .modal-body,
+.changepasswordmodal .modal-body {
   display: inline-block;
   width: 100%;
   padding: 0px;
@@ -2246,7 +2248,8 @@ form .fa-google-plus-square {
 .searchmodal form input[type="submit"],
 .loginmodal form input[type="submit"],
 .signupmodal form input[type="submit"],
-.forgetpasswordmodal form input[type="submit"] {
+.forgetpasswordmodal form input[type="submit"],
+.changepasswordmodal form input[type="submit"] {
   position: absolute;
   right: 5px;
   top: 0px;
@@ -2260,7 +2263,8 @@ form .fa-google-plus-square {
 .searchmodal form i,
 .loginmodal form i,
 .signupmodal form i,
-.forgetpasswordmodal form i {
+.forgetpasswordmodal form i,
+.changepasswordmodal form i {
   position: absolute;
   right: 28px;
   top: 20px;
